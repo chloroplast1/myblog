@@ -1,0 +1,6 @@
+[submodule "themes/themes/hugo-split-gallery"]
+	path = themes/themes/hugo-split-gallery
+	url = https://gitlab.com/tmuguet/hugo-split-gallery.git
+[submodule "themes/dream"]
+	path = themes/dream
+	url = https://github.com/cycinter/hugo-theme-dream.git
