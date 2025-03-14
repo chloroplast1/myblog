@@ -16,7 +16,7 @@ theme = "dream"
 lightTheme = "emerald"
 darkTheme = "forest"
 
-backgroundImage = "img/global-background.jpg"
+backgroundImage = "img/global-background.png"
 backgroundImageDark = ""
 
 author = "Dream"

@@ -43,7 +43,7 @@
 <style>
 
 #dream-global-bg {
-  background-image: url(/img/global-background.jpg);
+  background-image: url(/img/global-background.png);
 }
 
 
@@ -214,7 +214,7 @@
 
   <div class="md:basis-[200px] lg:basis-[300px] p-4 prose dark:prose-invert">
     <h1 class="text-2xl">Tag2</h1>
-    <p class="text-sm">2 articles</p>
+    <p class="text-sm">1 article</p>
     <div class="flex flex-wrap gap-4 mt-6">
       
 
@@ -243,17 +243,17 @@
     <div class="dream-grid">
     
       <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/hello_world/">
+        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/typora%E4%B8%8B%E8%BD%BD%E5%8F%8A%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/">
   
   <figure>
     
-    <img src="/img/cover.jpg" alt="Hello_world" />
+    <img src="/img/cover.jpg" alt="Typora下载及安装使用" />
     
   </figure>
   
 
   <div class="card-body">
-    <h2 class="card-title">Hello_world</h2>
+    <h2 class="card-title">Typora下载及安装使用</h2>
 
     <p class="date text-base-content/60">
     
@@ -261,45 +261,31 @@
     
     </p>
 
-    <p>Cut out summary from your post content here.</p>
-
-    <div class="card-actions justify-between items-center mt-4">
-      <div class="flex justify-between w-full">
-        
-          <p class="text-left">tag1, tag2</p>
-        
-
-        <div class="text-right">
-          <ion-icon name="time" class="mr-1"></ion-icon>
-          <span>1 minute read</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</a>
-
-      </div>
-    
-      <div class="w-full md:w-1/2 lg:w-1/3 p-4 dream-column">
-        <a class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl cursor-pointer dark:border dark:border-base-content/30" href="/posts/test1/">
-  
-  <figure>
-    
-    <img src="/img/cover.jpg" alt="Test1" />
-    
-  </figure>
-  
-
-  <div class="card-body">
-    <h2 class="card-title">Test1</h2>
-
-    <p class="date text-base-content/60">
-    
-      Thursday, Mar 13, 2025
-    
-    </p>
-
-    <p>你好啊，新朋友1</p>
+    <p>一、官网下载
+<a href="https://www.typoraio.cn/">https://www.typoraio.cn/</a></p>
+<p>ps:注意下载1.9.5版本或之前的版本，新版会闪退
+二、傻瓜式安装</p>
+<p><img src="image.png" alt="alt text"></p>
+<p>注意安装地址，以及可以勾选桌面快捷图标
+<img src="image-1.png" alt="alt text"></p>
+<p>三、使用Typora
+1.在安装路径下找到js文件
+<code>D:\Program Files\Typora\resources\page-dist\static\js</code></p>
+<p><img src="image-2.png" alt="alt text"></p>
+<p>右键使用文本打开。</p>
+<p>然后ctrl+f查找：<code>e.hasActivated=&quot;true&quot;==e.hasActivated</code>替换为<code>e.hasActivated=&quot;true&quot;==&quot;true&quot;</code>，并保存，如果保存成功，那么修改时间会改变。
+<img src="image-3.png" alt="alt text"></p>
+<p>此时打开就可以成功打开了。但是还会提示弹窗提示需要输入许可证激活，接下来我们继续操作。</p>
+<p>2.在下面的路径中进行操作
+<code>D:\Program Files\Typora\resources\page-dist</code>
+打开<code>license.html</code>文件，查找<code>&lt;/body&gt;&lt;/html&gt;</code>替换为<code>&lt;/body&gt;&lt;script&gt;window.onload=function(){setTimeout(()=&gt;{window.close();},5);}&lt;/script&gt;&lt;/html&gt;</code>后保存
+<img src="image-4.png" alt="alt text"></p>
+<p>3.然后去这个路径下面找到对应的代码
+<code>D:\Program Files\Typora\resources\locales\zh-Hans.lproj</code>
+打开<code>json</code>文件，将<code>&quot;UNREGISTERED&quot;:&quot;未激活&quot;</code>替换为<code>&quot;UNREGISTERED&quot;:&quot; &quot;</code></p>
+<p>4.再次打开Typroa就可以直接使用了
+5.ps：如果提示的有报错，我们只需要点击<code>Learn Data Recovery</code>就行，这样会跳出一个页面，关掉跳出页面，后面我们就可以正常使用typora了。
+<img src="image-6.png" alt="alt text"></p>
 
     <div class="card-actions justify-between items-center mt-4">
       <div class="flex justify-between w-full">
