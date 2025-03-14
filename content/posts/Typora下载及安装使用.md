@@ -51,6 +51,7 @@ ps:注意下载1.9.5版本或之前的版本，新版会闪退
 打开`json`文件，将`"UNREGISTERED":"未激活"`替换为`"UNREGISTERED":" "`
 
 4.再次打开Typroa就可以直接使用了
+
 5.ps：如果提示的有报错，我们只需要点击`Learn Data Recovery`就行，这样会跳出一个页面，关掉跳出页面，后面我们就可以正常使用typora了。
 ![alt text](image-6.png)
 
